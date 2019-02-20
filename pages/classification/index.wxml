@@ -1,0 +1,20 @@
+   <view class='small-title'>页面分类</view>
+ 
+  <view class="layout-style">
+    <view class='per-option' bindtap=''>
+      <image class="image-style" src='/image/example.png'></image>
+      <text class='per-text'>个人实名认证</text>
+      <text class='last-text'>（需要个人身份证影印件）</text>
+      <image class="image-click" src='/image/example.png'></image>
+    </view>
+
+    <view class='per-option' bindtap=''>
+      <image class="image-style" src='/image/example.png'></image>
+      <text class='per-text'>企业实名认证</text>
+      <text class='last-text'>（需要营业执照影印件、法定代表人身份证影印件）</text>
+      <image class="image-click" src='/image/example.png'></image>
+    </view>
+
+  </view>
+  
+

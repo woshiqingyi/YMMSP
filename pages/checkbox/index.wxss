@@ -1,0 +1,24 @@
+@import "/utils/smalltitle.wxss";
+
+.currency-style{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+
+.per-currency{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:15rpx;
+  margin-left: 15rpx;
+}
+
+.remove{
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+  font-size: 30rpx;
+}

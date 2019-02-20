@@ -1,0 +1,14 @@
+<view class='small-title'>复选框</view>
+
+<checkbox-group bindchange="checkboxChange">
+  <view class='currency-style'>
+    <bolck class="checkbox" wx:for="{{items}}" wx:key='waihui'>
+      <view class='per-currency'>
+        <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+        {{item.name}}
+      </view>
+    </bolck>
+  </view>
+</checkbox-group>
+
+<view class='remove' bindtap='onRemove'>清除所有选项</view>

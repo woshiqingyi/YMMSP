@@ -1,0 +1,36 @@
+<view class='small-title'>下拉框单选</view>
+    
+  <picker bindchange='onManagement' mode="selector" range="{{Management}}" range-key="{{'ManagementName'}}">
+    <view class="info-per-manage">
+      <text class='text-style'>经营类别</text>
+      <view class="last-style">
+        <view class='click-choose'>{{Management[ManagementIndexValue].ManagementName}}</view>
+        <image class="image-style" src='/image/click.png'></image>
+      </view>
+    </view>
+  </picker>
+
+  <picker bindchange='onOccupation' mode="selector" range="{{Occupation}}" range-key="{{'OccupationName'}}">
+    <view class="info-per">
+      <text class='text-style'>职业</text>
+      <view class="last-style">
+        <view class='click-choose'>{{Occupation[OccupationIndexValue].OccupationName}}</view>
+        <image class="image-style" src='/image/click.png'></image>
+      </view>
+    </view>
+  </picker>
+
+<view class='small-title'>下拉框多选</view>
+
+    <picker bindchange='onOccupation' mode="selector" range="{{Occupation}}" range-key="{{'OccupationName'}}">
+    <view class="info-per">
+      <text class='text-style'>职业</text>
+      <view class="last-style">
+        <view class='click-choose'>{{Occupation[OccupationIndexValue].OccupationName}}</view>
+        <image class="image-style" src='/image/click.png'></image>
+      </view>
+    </view>
+  </picker>
+
+
+

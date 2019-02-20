@@ -1,0 +1,7 @@
+.canvas-style{
+  display: flex;
+  background-color: lightgray;
+  color: #ff0000;
+  
+}
+/*vertical-align: middle;*/

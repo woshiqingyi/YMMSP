@@ -1,0 +1,7 @@
+.small-title{
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 30rpx;
+  color: gray;
+}

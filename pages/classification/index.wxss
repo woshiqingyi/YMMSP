@@ -1,0 +1,50 @@
+@import "/utils/smalltitle.wxss";
+
+.image-style{
+  height: 55rpx;
+  width: 55rpx;
+}
+
+.image-click{
+  margin-top: 10rpx;
+  height: 55rpx;
+  width: 55rpx;
+}
+
+.layout-style{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.per-option{
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400rpx;
+  width: 80%;
+  border-radius: 20rpx;
+  background-color: rgb(220, 239, 245);
+  border: 1rpx lightgray solid;
+}
+
+.per-text{
+  color: rgb(71, 71, 71);
+  margin-top: 15rpx;
+  font-size: 30rpx;
+}
+
+.last-text{
+  margin-left: 70rpx;
+  margin-right: 70rpx;
+  font-size: 29rpx;
+  color: gray;
+}
+
+Page{
+ background-color: whitesmoke
+}
+
+/*background-color: rgb(220, 239, 245)*/

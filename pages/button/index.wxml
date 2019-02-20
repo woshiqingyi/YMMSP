@@ -1,0 +1,22 @@
+
+
+<view class='small-title'>按钮点击字体效果</view>
+
+<view class='button-click-blue' hover-class='click-show-word' hover-stay-time='50'>注册登陆</view>
+
+<view class='button-click-orange' hover-class='click-show-word' hover-stay-time='50'>注册登陆</view>
+
+<view class='button-click-lightblue' hover-class='click-show-word' hover-stay-time='50'>注册登陆</view>
+
+<view class='button-click-green' hover-class='click-show-word' hover-stay-time='50'>注册登陆</view>
+
+<view class='small-title'>按钮点击背景效果</view>
+
+<view class='button-click-blue' hover-class='click-show-background-blue' hover-stay-time='50'>注册登陆</view>
+
+<view class='button-click-orange' hover-class='click-show-background-orange' hover-stay-time='50'>注册登陆</view>
+
+<view class='button-click-lightblue' hover-class='click-show-background-lightblue' hover-stay-time='50'>注册登陆</view>
+
+<view class='button-click-green' hover-class='click-show-background-green' hover-stay-time='50'>注册登陆</view>
+

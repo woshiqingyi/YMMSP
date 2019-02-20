@@ -1,0 +1,57 @@
+@import "/utils/smalltitle.wxss";
+
+.last-style{
+  display: flex;
+  align-items: center;
+}
+
+.info-per-manage{
+  height: 90rpx;
+  border-bottom: 1rpx  whitesmoke solid;
+  border-top: 1rpx  whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  font-size: 30rpx;
+}
+
+.text-style{
+  margin-left: 30rpx;
+  color:rgb(112, 112, 112);
+}
+
+.last-style{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.click-choose{
+  width: 100rpx;
+  height: 50rpx;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  color:rgb(112, 112, 112);
+}
+
+.image-style{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 50rpx;
+}
+
+.info-per{
+  height: 90rpx;
+  border-bottom: 1rpx  whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  font-size: 30rpx;
+}
+
+page{
+  background-color: whitesmoke
+}

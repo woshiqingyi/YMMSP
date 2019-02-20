@@ -1,0 +1,29 @@
+@import "/utils/smalltitle.wxss";
+
+.layout-style{
+  margin-top: 30rpx;
+  height: 72rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  font-size: 30rpx;
+}
+
+.page{
+  width: 30%;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jiemian1{
+  margin-top: 30rpx;
+  text-align: center;
+}
+
+.swiper-style{
+  font-size: 30rpx;
+  height: 100rpx;
+}

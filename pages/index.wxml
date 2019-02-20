@@ -1,0 +1,18 @@
+
+<view>
+  <bolck wx:for='{{components}}' wx:key=''>
+    <view class='per-title'>
+      <view class='per-title-layout'>{{item.title}}</view>
+    </view>
+    <bolck wx:for='{{item.children}}' wx:key='' wx:for-item="child">
+      <view class='per-option' bindtap='onbutton' id='{{child.url}}' hover-class='click-show' hover-stay-time='50'>
+        <text class='small-title'>{{child.title}}</text>
+        <view class='remark'>
+          <text class='remark-text'>{{child.remark}}</text>
+          <image class='remark-image' src='/image/option.png'></image>
+        </view>
+      </view>
+    </bolck>
+  </bolck>
+</view>
+
