@@ -1,4 +1,4 @@
-//app.js倍安居
+//app.js倍安居123
 App({
   onLaunch: function () {
     // 展示本地存储能力
