@@ -1,12 +1,14 @@
 {
   "pages":[
     "pages/index",
+    "pages/checkbox/index",
+   
     "pages/histogram/index",
    
     "pages/pageinteract/index",
     "pages/uploadpicture/index",
     "pages/button/index",
-    "pages/checkbox/index",
+   
     "pages/verificationcode/index",
     "pages/select/index",
     "pages/swiper/index",

@@ -27,12 +27,9 @@
         <input class='input-style1' bindinput='onEnglishName' placeholder="请输入英文名"></input>
     </view>
 
-    
     <view class="per-info-first1">
       <text class='text-style1'>身份证号码</text>
       <input class='input-style1' value="{{GetIDCardInfo.IDCardNumber}}" bindinput='onIDCard' placeholder="请输入身份证号码"></input>
     </view>
 
-    
-    
 </view>
