@@ -1,4 +1,4 @@
-//app.js倍安居123
+//app.js益企盈
 App({
   onLaunch: function () {
     // 展示本地存储能力
