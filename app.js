@@ -1,4 +1,4 @@
-//app.js益企盈123
+//app.js益企盈123123
 App({
   onLaunch: function () {
     // 展示本地存储能力
