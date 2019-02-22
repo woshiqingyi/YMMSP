@@ -9,17 +9,17 @@ Page({
           {
             title:'DataDisplay',
             remark:'数据显示',
-            url:'/pages/datadisplay/index'
+            url:'/pages/data-display/index'
           },
           {
             title: 'OptionList',
             remark: '选项列表',
-            url: '/pages/optionlist/index'
+            url: '/pages/option-list/index'
           },
           {
             title: 'InputStyle',
             remark: '输入框',
-            url: '/pages/inputstyle/index'
+            url: '/pages/input-style/index'
           },
           {
             title: 'Swiper',
@@ -39,7 +39,7 @@ Page({
           {
             title: 'VerificationCode',
             remark: '验证码',
-            url: '/pages/verificationcode/index'
+            url: '/pages/verification-code/index'
           },
           {
             title: 'Checkbox',
@@ -49,7 +49,7 @@ Page({
           {
             title: 'UploadPicture',
             remark: '上传图片',
-            url: '/pages/uploadpicture/index'
+            url: '/pages/upload-picture/index'
           },
           {
             title: 'Button',
@@ -59,7 +59,7 @@ Page({
           {
             title: 'PageInteract',
             remark: '界面交互',
-            url: '/pages/pageinteract/index'
+            url: '/pages/page-interact/index'
           },
           {
             title: 'Histogram',

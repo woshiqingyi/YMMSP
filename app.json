@@ -1,22 +1,18 @@
 {
   "pages":[
-    "pages/checkbox/index",
     "pages/index",
-    
-   
+    "pages/checkbox/index",
     "pages/histogram/index",
-   
-    "pages/pageinteract/index",
-    "pages/uploadpicture/index",
+    "pages/page-interact/index",
+    "pages/upload-picture/index",
     "pages/button/index",
-   
-    "pages/verificationcode/index",
+    "pages/verification-code/index",
     "pages/select/index",
     "pages/swiper/index",
     "pages/classification/index",
-    "pages/inputstyle/index",
-    "pages/optionlist/index",
-    "pages/datadisplay/index"
+    "pages/input-style/index",
+    "pages/option-list/index",
+    "pages/data-display/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
