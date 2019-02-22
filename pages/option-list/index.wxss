@@ -1,0 +1,90 @@
+@import "/utils/smalltitle.wxss";
+
+.fixed{
+  font-size: 30rpx;
+}
+
+.click{
+  font-size: 30rpx;
+}
+
+.per-info{
+  display: flex;
+  align-items: center;
+}
+
+.icon-image{
+  height: 45rpx;
+  width: 45rpx;
+  margin-left: 35rpx;
+}
+
+.text-style{
+  margin-left: 25rpx;
+}
+
+.click-image{
+  height: 60rpx;
+  width: 60rpx;
+  vertical-align: middle;
+  float: right;
+  margin-right: 40rpx;
+}
+
+.per-option{
+  display: flex;
+  align-items: center;
+  height: 92rpx;
+  justify-content: space-between;
+  border-bottom: 1px rgb(231, 231, 231) solid;
+  background-color: white;
+}
+
+.text-content{
+  color: gray;
+  margin-right: 45rpx;
+}
+
+.per-option-fixed{
+  display: flex;
+  align-items: center;
+  height: 92rpx;
+  justify-content: space-between;
+  border-top: 1px rgb(231, 231, 231) solid;
+  border-bottom: 1px rgb(231, 231, 231) solid;
+  background-color: white;
+}
+
+.per-option-click{
+  display: flex;
+  align-items: center;
+  height: 92rpx;
+  justify-content: space-between;
+  border-top: 1px rgb(231, 231, 231) solid;
+  border-bottom: 1px rgb(231, 231, 231) solid;
+  background-color: white;
+}
+
+
+
+.content-password{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between; 
+  align-items: center;
+  background-color: white
+} 
+
+.text-style-password{
+   margin-left: 25rpx;
+}
+
+.click-show{
+  background-color: rgb(224, 223, 223)
+}
+
+page{
+  background-color: whitesmoke
+}
+
+

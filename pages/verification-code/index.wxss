@@ -1,0 +1,17 @@
+.layout-style{
+  display: flex;
+  justify-content: center
+}
+
+@import "/utils/smalltitle.wxss";
+
+.VerificationCode{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45rpx;
+  width: 220rpx;
+  border-radius: 20rpx;
+  background-color: rgb(231, 231, 231);
+  font-size: 28rpx;
+}

@@ -1,0 +1,13 @@
+@import "/utils/smalltitle.wxss";
+
+.per-show{
+  display: flex;
+  margin-left: 100rpx;
+  margin-right: 100rpx;
+  height: 60rpx;
+  border: 1rpx lightgray solid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+}

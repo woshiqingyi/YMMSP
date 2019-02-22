@@ -1,0 +1,13 @@
+  <view class='small-title'>显示操作菜单</view>
+  <view class='per-show' bindtap='onShowActionSheet'>按钮</view>
+     
+  <view class='small-title'>显示 loading 提示框</view>
+  <view class='per-show' bindtap='onShowLoading'>按钮</view>
+
+  <view class='small-title'>显示消息提示框</view>
+  <view class='per-show' bindtap='onShowToast'>按钮</view>
+
+  <view class='small-title'>显示模态对话框</view>
+  <view class='per-show' bindtap='onShowModal'>按钮</view>
+
+  <view bindtap='onTo'>点击我</view>

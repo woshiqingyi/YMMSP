@@ -1,0 +1,21 @@
+<view class='layout-style'>
+  <view class='text-style'>
+    <text class='per-content' bindtap='ontext'>店铺名称</text>
+    <text class='per-content'>所属平台</text>
+    <text class='per-content'>到账金额</text>
+    <text class='per-content'>国际币种</text>
+    <text class='per-content'>到账时间</text>
+  </view>
+  <block wx:for="{{components}}" wx:key="waihui"> 
+    <view class='content-style'>
+      <text class='per-content'>{{item.First}}</text>
+      <text class='per-content'>{{item.Second}}</text>
+      <text class='per-content'>{{item.Third}}</text>
+      <text class='per-content'>{{item.Fourth}}</text>
+      <text class='per-content'>{{item.Fifth}}</text>
+    </view>
+  </block>
+</view>
+
+
+  
