@@ -48,7 +48,7 @@ page{
 }
 
 
-.per-info-first1{
+.per-info-fresh{
   height: 90rpx;
   border-bottom: 1rpx  whitesmoke solid;
   display: flex;

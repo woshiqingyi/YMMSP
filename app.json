@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/option-list/index",
+    "pages/input-style/index",
     "pages/index",
+    "pages/option-list/index",
     "pages/checkbox/index",
     "pages/histogram/index",
     "pages/page-interact/index",
@@ -11,8 +12,6 @@
     "pages/select/index",
     "pages/swiper/index",
     "pages/classification/index",
-    "pages/input-style/index",
-   
     "pages/data-display/index"
   ],
   "window":{

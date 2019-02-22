@@ -1,5 +1,4 @@
 <view>
-
   <view class='small-title'>单个输入框</view>
     <view class='only-input'>
       <view class='per-info-first'>
@@ -22,12 +21,12 @@
 
    <view class='small-title'>多个输入框</view>
 
-     <view class="per-info-first1">
+     <view class="per-info-fresh">
         <text class='text-style1'>英文名</text>
         <input class='input-style1' bindinput='onEnglishName' placeholder="请输入英文名"></input>
     </view>
 
-    <view class="per-info-first1">
+    <view class="per-info-fresh">
       <text class='text-style1'>身份证号码</text>
       <input class='input-style1' value="{{GetIDCardInfo.IDCardNumber}}" bindinput='onIDCard' placeholder="请输入身份证号码"></input>
     </view>

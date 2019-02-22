@@ -10,9 +10,7 @@
         <text class="text-content">949557864</text>
       </view>
     </view>
-
   <view class='small-title'>固定显示列表（带图标）</view>
-
     <view class='fixed'>
       <view class="per-info-fixed">
         <view class='icon-text'>
@@ -21,7 +19,6 @@
         </view>
         <text class="text-content">小姚</text>
       </view>
-      
       <view class="per-info">
         <view class='icon-text'>
           <image class="icon-image" src="/image/example.png"></image>
@@ -30,7 +27,6 @@
         <text class="text-content">949557864</text>
       </view>
     </view>
-
     <view class='click'>
       <view class='small-title'>可点击跳转列表</view>
         <view class="per-info-click" hover-class='click-show'  hover-stay-time='100'>
