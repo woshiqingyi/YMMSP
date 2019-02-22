@@ -19,7 +19,7 @@ Page({
             remark: '输入框',
             url: '/pages/input-style/index'
           },
-          {
+          { 
             title: 'Swiper',
             remark: '滑块视图',
             url: '/pages/swiper/index'

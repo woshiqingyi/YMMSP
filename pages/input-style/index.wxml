@@ -1,34 +1,23 @@
-<view>
-  <view class='small-title'>单个输入框</view>
-    <view class='only-input'>
-      <view class='per-info-first'>
-        <text class='text-style'>旧密码</text>
-        <input class='input-style' placeholder='请输入旧密码' bindinput='' password="true"></input>
+ <view class='small-title'>多个输入框</view>
+    <view class='many-input-common'>
+      <view class='per-input-common-first'>
+        <text class='text-common'>新密码</text>
+        <input class='input-common' placeholder='请输入新密码' bindinput='' password="true"></input>
       </view>
-    </view> 
-    
-  <view class='small-title'>多个输入框</view>
-    <view class='many-input'>
-      <view class='per-info-first'>
-        <text class='text-style'>新密码</text>
-        <input class='input-style' placeholder='请输入新密码' bindinput='' password="true"></input>
-      </view>
-      <view class='per-info'>
-        <text class='text-style'>确认密码</text>
-        <input class='input-style' placeholder='请确认新密码' bindinput='' password="true"></input>
+      <view class='per-input-common'>
+        <text class='text-common'>确认密码</text>
+        <input class='input-common' placeholder='请确认新密码' bindinput='' password="true"></input>
       </view>
     </view>
 
    <view class='small-title'>多个输入框</view>
-
-     <view class="per-info-fresh">
-        <text class='text-style1'>英文名</text>
-        <input class='input-style1' bindinput='onEnglishName' placeholder="请输入英文名"></input>
-    </view>
-
-    <view class="per-info-fresh">
-      <text class='text-style1'>身份证号码</text>
-      <input class='input-style1' value="{{GetIDCardInfo.IDCardNumber}}" bindinput='onIDCard' placeholder="请输入身份证号码"></input>
-    </view>
-
-</view>
+      <view class='many-input-fresh'>
+        <view class="per-input-fresh">
+          <text class='text-fresh'>英文名</text>
+          <input class='input-fresh' bindinput='onEnglishName' placeholder="请输入英文名"></input>
+        </view>
+        <view class="per-input-fresh">
+          <text class='text-fresh'>身份证号码</text>
+          <input class='input-fresh' value="{{GetIDCardInfo.IDCardNumber}}" bindinput='onIDCard' placeholder="请输入身份证号码"></input>
+        </view>
+      </view>

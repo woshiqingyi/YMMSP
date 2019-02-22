@@ -1,6 +1,6 @@
 @import "/utils/smalltitle.wxss";
 
-.layout-style{
+.layout-swiper{
   margin-top: 30rpx;
   height: 72rpx;
   display: flex;
@@ -10,7 +10,7 @@
   font-size: 30rpx;
 }
 
-.page{
+.swiper-style{
   width: 30%;
   height: 70rpx;
   display: flex;
@@ -18,12 +18,12 @@
   justify-content: center;
 }
 
-.jiemian1{
+.per-page{
   margin-top: 30rpx;
   text-align: center;
 }
 
-.swiper-style{
+.swiper-pages{
   font-size: 30rpx;
   height: 100rpx;
 }

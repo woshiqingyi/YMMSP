@@ -1,27 +1,24 @@
 <view class='small-title'>可滑动视图</view>
 
-<view class='layout-style'>
-  <view class='page' bindtap='onFirstPage' id="First" style='border-bottom:{{FirstPageColor}};color:{{FirstPageWord}}'>界面1</view>
-  <view class='page' bindtap='onSecondPage' id="Second" style='border-bottom:{{SecondPageColor}};color:{{SecondPageWord}}'>界面2</view>
+<view class='layout-swiper'>
+  <view class='swiper-style' bindtap='onFirstPage' id="First" style='border-bottom:{{FirstPageColor}};color:{{FirstPageWord}}'>界面1</view>
+  <view class='swiper-style' bindtap='onSecondPage' id="Second" style='border-bottom:{{SecondPageColor}};color:{{SecondPageWord}}'>界面2</view>
 </view>
-<swiper class="swiper-style" current="{{index}}" bindchange="onMove">
-  <swiper-item class='jiemian1'>界面1</swiper-item>
-  <swiper-item class='jiemian1'>界面2</swiper-item>
+<swiper class="swiper-pages" current="{{index}}" bindchange="onMove">
+  <swiper-item class='per-page'>界面1</swiper-item>
+  <swiper-item class='per-page'>界面2</swiper-item>
 </swiper>
-
 
 <view class='small-title'>可滑动视图</view>
 
-
-<view class='layout-style'>
-  <view class='page' bindtap='onFirstPage' id="First" style='border-bottom:{{FirstPageColor}};color:{{FirstPageWord}}'>界面1</view>
-  <view class='page' bindtap='onSecondPage' id="Second" style='border-bottom:{{SecondPageColor}};color:{{SecondPageWord}}'>界面2</view>
-  <view class='page' bindtap='onThirdPage' id="Third" style='border-bottom:{{ThirdPageColor}};color:{{ThirdPageWord}}'>界面3</view>
+<view class='layout-swiper'>
+  <view class='swiper-style' bindtap='onFirstPage' id="First" style='border-bottom:{{FirstPageColor}};color:{{FirstPageWord}}'>界面1</view>
+  <view class='swiper-style' bindtap='onSecondPage' id="Second" style='border-bottom:{{SecondPageColor}};color:{{SecondPageWord}}'>界面2</view>
+  <view class='swiper-style' bindtap='onThirdPage' id="Third" style='border-bottom:{{ThirdPageColor}};color:{{ThirdPageWord}}'>界面3</view>
 </view>
 
-
-<swiper class="swiper-style" current="{{index}}" bindchange="onMove">
-  <swiper-item class='jiemian1'>界面1</swiper-item>
-  <swiper-item class='jiemian1'>界面2</swiper-item>
-  <swiper-item class='jiemian1'>界面3</swiper-item>
+<swiper class="swiper-pages" current="{{index}}" bindchange="onMove">
+  <swiper-item class='per-page'>界面1</swiper-item>
+  <swiper-item class='per-page'>界面2</swiper-item>
+  <swiper-item class='per-page'>界面3</swiper-item>
 </swiper>
