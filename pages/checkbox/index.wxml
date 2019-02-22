@@ -1,11 +1,18 @@
 <view class='small-title'>单选框（合同选项条件）</view>
-  
+<view class='terms-layout'>
+  <checkbox-group bindchange='onTerms'>
+    <checkbox value='{{Values}}'></checkbox>
+  </checkbox-group>
+  <view>
+    <text>我已经阅读同意</text>
+    <text class='terms-click' bindtap='onCollectionAgreement'>《被点击的条款》</text>
+  </view>
+</view>
 
 <view class='small-title'>复选框</view>
-
 <checkbox-group bindchange="checkboxChange">
   <view class='currency-style'>
-    <bolck class="checkbox" wx:for="{{items}}" wx:key='waihui'>
+    <bolck wx:for="{{items}}" wx:key='waihui'>
       <view class='per-currency'>
         <checkbox value="{{item.value}}" checked="{{item.checked}}" />
         {{item.name}}

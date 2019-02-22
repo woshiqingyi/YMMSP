@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/index",
     "pages/checkbox/index",
+    "pages/index",
+    
    
     "pages/histogram/index",
    
