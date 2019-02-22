@@ -8,6 +8,7 @@
   font-size: 30rpx;
 }
 
+/*带图标*/
 .icon-text{
   display: flex;
   align-items: center;
@@ -31,7 +32,7 @@
   margin-right: 40rpx;
 }
 
-.per-option{
+.per-info{
   display: flex;
   align-items: center;
   height: 92rpx;
@@ -45,7 +46,7 @@
   margin-right: 45rpx;
 }
 
-.per-option-fixed{
+.per-info-fixed{
   display: flex;
   align-items: center;
   height: 92rpx;
@@ -55,7 +56,7 @@
   background-color: white;
 }
 
-.per-option-click{
+.per-info-click{
   display: flex;
   align-items: center;
   height: 92rpx;
@@ -63,20 +64,6 @@
   border-top: 1px rgb(231, 231, 231) solid;
   border-bottom: 1px rgb(231, 231, 231) solid;
   background-color: white;
-}
-
-
-
-.content-password{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between; 
-  align-items: center;
-  background-color: white
-} 
-
-.text-style-password{
-   margin-left: 25rpx;
 }
 
 .click-show{
