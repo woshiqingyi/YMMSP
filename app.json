@@ -1,12 +1,12 @@
 {
   "pages":[
+    "pages/histogram/index",
     "pages/button/index",
     "pages/option-list/index",
     "pages/swiper/index",
     "pages/index",
     "pages/input-style/index",
     "pages/checkbox/index",
-    "pages/histogram/index",
     "pages/page-interact/index",
     "pages/upload-picture/index",
     "pages/verification-code/index",
