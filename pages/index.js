@@ -63,8 +63,12 @@ Page({
             title: 'Histogram',
             remark: '柱状图',
             url: '/pages/histogram/index'
-          },
-          
+          }, 
+          {
+            title: 'RemarkTips',
+            remark: '备注提示',
+            url: '/pages/remark-tips/index'
+          },          
         ]
       },
       {

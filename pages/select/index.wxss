@@ -1,14 +1,8 @@
 @import "/utils/smalltitle.wxss";
 
-.last-style{
-  display: flex;
-  align-items: center;
-}
-
-.info-per-manage{
+.per-option{
   height: 90rpx;
   border-bottom: 1rpx  whitesmoke solid;
-  border-top: 1rpx  whitesmoke solid;
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -16,40 +10,45 @@
   font-size: 30rpx;
 }
 
-.text-style{
+.option-title{
   margin-left: 30rpx;
-  color:rgb(112, 112, 112);
+  color:rgb(85, 85, 85);
 }
 
-.last-style{
+.option-text{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.click-choose{
-  width: 100rpx;
-  height: 50rpx;
+.option-choose{
+  text-align:center;/*字居中*/
+  width: 100rpx;/*控制选项的大小,超过并隐藏*/
+  display: -webkit-box;
   overflow: hidden;
-  display: flex;
-  align-items: center;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
   color:rgb(112, 112, 112);
 }
 
-.image-style{
+.option-choose-placeholder{
+  text-align:center;/*字居中*/
+  width: 300rpx;/*控制选项的大小,超过并隐藏*/
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+  color:rgb(112, 112, 112);
+}
+ 
+.option-image{
   width: 60rpx;
   height: 60rpx;
   margin-right: 50rpx;
-}
-
-.info-per{
-  height: 90rpx;
-  border-bottom: 1rpx  whitesmoke solid;
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-  background-color: white;
-  font-size: 30rpx;
 }
 
 page{

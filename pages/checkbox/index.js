@@ -1,6 +1,6 @@
 Page({
   data: {
-    Values:'SHUZHI',
+    TermValue:'SHUZHI',
     items: [
       { value: 'USA', name: '美国' },
       { value: 'CHN', name: '中国' },
@@ -14,15 +14,17 @@ Page({
     console.log('event', event)
   },
 
-  onTerms(event){
+  chooseTerms(event){
     this.setData({
       Terms:event.detail.value
     })
     if(this.data.Terms.length == 0){
       console.log('没勾选')
+      return;
     }
     if (this.data.Terms.length !== 0) {
       console.log('勾选')
+      return;
     }
   },
 

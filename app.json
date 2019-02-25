@@ -1,16 +1,28 @@
 {
   "pages":[
+    "pages/index",
+    "pages/select/index",
+   
+    "pages/remark-tips/index",
+   
+    
+    "pages/checkbox/index",
+    
+    "pages/input-style/index",
+    
+    
+    
     "pages/histogram/index",
     "pages/button/index",
     "pages/option-list/index",
     "pages/swiper/index",
-    "pages/index",
-    "pages/input-style/index",
-    "pages/checkbox/index",
+    
+    
+    
     "pages/page-interact/index",
     "pages/upload-picture/index",
     "pages/verification-code/index",
-    "pages/select/index",
+    
     "pages/classification/index",
     "pages/data-display/index"
   ],

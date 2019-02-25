@@ -1,0 +1,8 @@
+@import "/utils/smalltitle.wxss";
+.remark-tip{
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  font-size: 24rpx;
+  color: rgb(104, 104, 104);
+}
+

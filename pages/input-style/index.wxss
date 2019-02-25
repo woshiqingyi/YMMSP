@@ -29,7 +29,7 @@
 
 .input-common{
   margin-right: 50rpx;
-  width: 470rpx
+  width: 400rpx
 }
 
 .many-input-fresh{
@@ -50,7 +50,8 @@
 }
 
 .input-fresh{
-  width: 425rpx;
+  width: 375rpx;
+  margin-right: 50rpx;
 }
 
 page{
