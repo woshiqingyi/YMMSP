@@ -1,4 +1,5 @@
 <view class='small-title'>单选框（合同选项条件）</view>
+
 <view class='terms-layout'>
   <checkbox-group bindchange='chooseTerms'>
     <checkbox value='{{TermValue}}'></checkbox>
