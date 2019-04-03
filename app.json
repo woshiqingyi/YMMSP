@@ -1,28 +1,20 @@
 {
   "pages":[
     "pages/index",
-    "pages/select/index",
-   
-    "pages/remark-tips/index",
-   
-    
-    "pages/checkbox/index",
-    
-    "pages/input-style/index",
-    
-    
-    
-    "pages/histogram/index",
+    "pages/verification-code/index",
     "pages/button/index",
+    
+    "pages/registers/index",
+    "pages/login/index",
+    "pages/remark-tips/index",
+    "pages/histogram/index",
+    "pages/select/index",
+    "pages/checkbox/index",
+    "pages/input-style/index",
     "pages/option-list/index",
     "pages/swiper/index",
-    
-    
-    
     "pages/page-interact/index",
     "pages/upload-picture/index",
-    "pages/verification-code/index",
-    
     "pages/classification/index",
     "pages/data-display/index"
   ],

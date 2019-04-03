@@ -68,21 +68,22 @@ Page({
             title: 'RemarkTips',
             remark: '备注提示',
             url: '/pages/remark-tips/index'
-          },          
+          }, 
+            
         ]
       },
       {
-        title: '核心组件2',
+        title: 'UI模板',
         children: [
           {
-            title: 'button',
-            remark: '按钮2',
-            url: "3"
+            title: 'register',
+            remark: '用户注册',
+            url: '/pages/registers/index'
           },
           {
-            title: 'button',
-            remark: '按钮2',
-            url: "4"
+            title: 'login',
+            remark: '用户登录',
+            url: '/pages/login/index'
           }
         ]
       }

@@ -8,6 +8,7 @@ Page({
     this.onTo('wefifjhiefeififjfijf'),
     this.f("yykh")
   },
+  
   onShowActionSheet(){
     wx.showActionSheet({
       itemList: ['A', 'B', 'C'],

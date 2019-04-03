@@ -3,11 +3,25 @@ Page({
   data: {
    CodeName:'获取验证码',
    Count:'',
-   Counting: false
-  },
-onShow(){
+   Counting: false,
 
-},
+
+
+    isShowInfo: false
+ 
+  },
+
+  methods: {
+    __hideInfo: function () {
+      this.setData({
+        isShowInfo: true
+      })
+    }
+  },
+
+ 
+
+
   onGetCode(){
     var that = this;
     if (!that.data.Counting==true) {  
@@ -18,7 +32,7 @@ onShow(){
       })
       countDown(that, that.data.Count);
     } 
-  },
+  },  
 
   
 })

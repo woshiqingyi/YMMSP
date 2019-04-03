@@ -1,4 +1,29 @@
 <view class='small-title'>获取验证码</view>
-<view class='layout-style'>
-  <view class='VerificationCode' bindtap='onGetCode'>{{CodeName}}</view>
+  <view class='layout-style'>
+    <view class='VerificationCode' bindtap='onGetCode'>{{CodeName}}</view>
+  </view>
+
+
+
+
+
+
+
+
+
+<view class="zr">
+  
+  <view class="water">
+    <view class="water-c">
+      <view class="water-1"> </view>
+      <view class="water-2"> </view>
+    </view>
+  </view>
+
 </view>
+
+
+
+
+
+
