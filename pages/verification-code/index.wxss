@@ -1,9 +1,8 @@
+@import "/utils/smalltitle.wxss";
 .layout-style{
   display: flex;
   justify-content: center
 }
-
-@import "/utils/smalltitle.wxss";
 
 .VerificationCode{
   display: flex;
