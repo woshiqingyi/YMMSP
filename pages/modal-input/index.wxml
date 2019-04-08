@@ -1,0 +1,6 @@
+  <view class='small-title'>弹框输入</view>
+
+  <view class='click-modal' bindtap='inputModal'>点击弹框输入</view>
+  <modal hidden="{{HiddenModalInput}}" title="资料填写" confirm-text="确认" cancel-text="取消" bindcancel="clickCancel" bindconfirm="clickConfirm">
+    <input type='text' placeholder="姓名："/>
+  </modal>

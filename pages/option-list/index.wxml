@@ -3,7 +3,7 @@
     <view class='fixed'>
       <view class="per-info-fixed">
         <text class="text-style">姓名</text>
-        <text class="text-content">小姚</text>
+        <text class="text-content">小明</text>
       </view>
       <view class="per-info">
         <text class="text-style">注册ID</text>
@@ -17,7 +17,7 @@
           <image class="icon-image" src="/image/example.png"></image>
           <text class="text-style">姓名</text>
         </view>
-        <text class="text-content">小姚</text>
+        <text class="text-content">小明</text>
       </view>
       <view class="per-info">
         <view class='icon-text'>

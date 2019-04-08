@@ -26,9 +26,7 @@ Page({
       }
     ]
   },
-ontext(event){
-  console.log('event', event)
-},
+
 
   onLoad: function (event) {
     console.log('components', this.data.components)

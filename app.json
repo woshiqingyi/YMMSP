@@ -1,11 +1,10 @@
 {
   "pages":[
     "pages/index",
+    "pages/modal-input/index",
+    "pages/navigateto-parameter/index",
     "pages/verification-code/index",
     "pages/button/index",
-    
-    "pages/registers/index",
-    "pages/login/index",
     "pages/remark-tips/index",
     "pages/histogram/index",
     "pages/select/index",

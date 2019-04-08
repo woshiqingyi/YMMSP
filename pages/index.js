@@ -69,22 +69,21 @@ Page({
             remark: '备注提示',
             url: '/pages/remark-tips/index'
           }, 
-            
+          {
+            title: 'ModalInput',
+            remark: '弹框输入',
+            url: '/pages/modal-input/index'
+          }, 
         ]
       },
       {
-        title: 'UI模板',
+        title: '进阶',
         children: [
           {
-            title: 'register',
-            remark: '用户注册',
-            url: '/pages/registers/index'
+            title: 'NavigatetoParameter',
+            remark: '多传参',
+            url: '/pages/navigateto-parameter/index'
           },
-          {
-            title: 'login',
-            remark: '用户登录',
-            url: '/pages/login/index'
-          }
         ]
       }
      

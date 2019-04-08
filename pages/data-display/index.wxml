@@ -1,6 +1,6 @@
 <view class='layout-style'>
   <view class='text-style'>
-    <text class='per-content' bindtap='ontext'>店铺名称</text>
+    <text class='per-content'>店铺名称</text>
     <text class='per-content'>所属平台</text>
     <text class='per-content'>到账金额</text>
     <text class='per-content'>国际币种</text>

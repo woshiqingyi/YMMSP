@@ -1,0 +1,13 @@
+@import "/utils/smalltitle.wxss";
+.click-modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70rpx;
+  margin-right: 70rpx;
+  font-size: 30rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  background-color: rgb(223, 223, 223);
+}
+
