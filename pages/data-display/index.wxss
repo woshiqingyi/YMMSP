@@ -1,9 +1,10 @@
+@import "/utils/smalltitle.wxss";
 .layout-style{
   margin-top: 25rpx;
   background-color: whitesmoke;
 }
 
-.text-style{
+.text-style1{
   display: flex;
   justify-content: space-around;
   margin-top: 25rpx;
@@ -31,6 +32,41 @@
   display: flex;
   align-items: center;
   word-break: break-alls
+}
+
+.info-per{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 85rpx;
+  border-bottom: 1rpx  whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  font-size: 29rpx;
+}
+
+.text-style2{
+  margin-left: 30rpx;
+  width: 250rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+}
+
+
+.input-style{
+  color: gray;
+  width: 390rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
 }
 
 page{

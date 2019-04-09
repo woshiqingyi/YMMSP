@@ -1,6 +1,8 @@
 {
   "pages":[
     "pages/index",
+    "pages/checkbox/index",
+    "pages/judgment/index",
     "pages/modal-input/index",
     "pages/navigateto-parameter/index",
     "pages/verification-code/index",
@@ -8,7 +10,7 @@
     "pages/remark-tips/index",
     "pages/histogram/index",
     "pages/select/index",
-    "pages/checkbox/index",
+    
     "pages/input-style/index",
     "pages/option-list/index",
     "pages/swiper/index",

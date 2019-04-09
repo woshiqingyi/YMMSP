@@ -9,6 +9,8 @@
     </view>
   </picker>
 
+  
+
 <view class='small-title'>下拉框单选（提示语）</view>
   <picker bindchange='chooseOption' mode="selector" range="{{Management}}" range-key="{{'ManagementName'}}" >
     <view class="per-option">

@@ -84,6 +84,11 @@ Page({
             remark: '多传参',
             url: '/pages/navigateto-parameter/index'
           },
+          {
+            title: 'Judgment',
+            remark: '判断',
+            url: '/pages/judgment/index'
+          },
         ]
       }
      

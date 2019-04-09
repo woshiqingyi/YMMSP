@@ -1,5 +1,7 @@
+<view class='small-title'>数据显示</view>
+
 <view class='layout-style'>
-  <view class='text-style'>
+  <view class='text-style1'>
     <text class='per-content'>店铺名称</text>
     <text class='per-content'>所属平台</text>
     <text class='per-content'>到账金额</text>
@@ -16,6 +18,14 @@
     </view>
   </block>
 </view>
+
+<view class='small-title'>列表显示</view>
+
+<view class="info-per">
+  <text class='text-style2'>姓名(中文)</text>
+  <input class='input-style' disabled='true' value='{{GetInfo.CertificationInfo.UserName}}' ></input>
+</view>
+
 
 
   
