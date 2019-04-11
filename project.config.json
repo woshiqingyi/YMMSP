@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -51,6 +51,12 @@
 					"name": "用户登陆",
 					"pathName": "pages/login/index",
 					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "复选框",
+					"pathName": "pages/checkbox/index",
 					"scene": 1001
 				}
 			]

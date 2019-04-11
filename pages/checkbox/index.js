@@ -11,7 +11,7 @@ Page({
     ],
   },
   checkboxChange(event) {
-    console.log('event', event)
+    console.log('event', event.detail.value)
   },
 
   chooseTerms(event){
@@ -37,4 +37,15 @@ Page({
       items: items
     })
   },
+
+  optionAll(){
+    var options = []
+    for (var i=0; this.data.items.length>i;i++){
+      options.push(
+        this.data.items[i].value
+      )
+      console.log('11', options)
+    }
+  }
+
 })

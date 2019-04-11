@@ -24,6 +24,9 @@
 
 <view class='remove' bindtap='onRemove'>清除所有选项</view>
 
+<view class='remove' bindtap='optionAll'>清除所有选项</view>
+
+
 <view class='small-title'>更改样式复选框</view>
 
 <radio-group class="group">
