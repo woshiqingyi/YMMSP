@@ -16,6 +16,7 @@ Page({
       }
     ],
   },
+
   chooseOption(event){
     console.log('event', event)
     this.setData({

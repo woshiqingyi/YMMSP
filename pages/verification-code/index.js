@@ -7,6 +7,11 @@ Page({
    isShowInfo: false
   },
 
+  onLoad(){
+    if (1 > 0) wo = 1,
+      console.log('11', wo)
+  },
+
   methods: {
     __hideInfo: function () {
       this.setData({
@@ -24,7 +29,8 @@ Page({
       })
       countDown(that, that.data.Count);
     } 
-  },  
+  },
+
 })
 
 function countDown(that, count) {

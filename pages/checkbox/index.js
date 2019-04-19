@@ -10,6 +10,12 @@ Page({
       { value: 'TUR', name: '法国' },
     ],
   },
+
+  onLoad() {
+
+    
+  },
+
   checkboxChange(event) {
     console.log('event', event.detail.value)
   },
@@ -47,5 +53,4 @@ Page({
       console.log('11', options)
     }
   }
-
 })
