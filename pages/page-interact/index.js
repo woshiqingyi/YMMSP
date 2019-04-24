@@ -39,9 +39,13 @@ Page({
 
   onShowToast(){
     wx.showToast({
-      title: '成功',
-      icon: 'success',
-      duration: 2000
+      title: '',
+      icon: 'error',
+      duration: 2000,
+      mask:true,
+      success(){
+       
+      }
     })
   },
 

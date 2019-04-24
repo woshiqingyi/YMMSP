@@ -1,66 +1,83 @@
-// pages/judgment/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
+    AnalogData1:[],
+    AnalogData1_1:[
+      {
+        AnalogData1: 'AnalogData1'
+      }
+    ],
+    AnalogData2:'',
+    AnalogData2_1: 'AnalogData2_1',
 
+    AnalogData3:null //null不能用length来判断
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
+
   onLoad: function (options) {
 
+    if (this.data.AnalogData1){
+      console.log('AnalogData1_1')
+    } 
+    if (this.data.AnalogData1.length){
+      console.log('AnalogData1_2')
+    } 
+    if (this.data.AnalogData1=='') {
+      console.log('AnalogData1_3')
+    }
+    if (this.data.AnalogData1_1){
+      console.log('AnalogData1_4')
+    }
+    if (this.data.AnalogData1_1.length) {
+      console.log('AnalogData1_5')
+    }
+    if (this.data.AnalogData1_1 == '') {
+      console.log('AnalogData1_6')
+    }
+
+    
+    if (this.data.AnalogData2){
+      console.log('AnalogData2_1')
+    } 
+    if (this.data.AnalogData2.length) { 
+      console.log('AnalogData2_2')
+    } 
+    if (this.data.AnalogData2=='') {
+      console.log('AnalogData2_3')
+    }
+    if (this.data.AnalogData2_1) {
+      console.log('AnalogData2_4')
+    }
+    if (this.data.AnalogData2_1.length) {
+      console.log('AnalogData2_5',)
+    }
+    if (this.data.AnalogData2_1 == '') {
+      console.log('AnalogData2_6')
+    }
+
+
+
+
+    if (this.data.AnalogData3) {
+      console.log('AnalogData3_1')
+    }
+    if (this.data.AnalogData3 == '') {
+      console.log('AnalogData3_3')
+    }
+
+    /*结论：
+    1.当数据是字符串 直接当条件或者是''或者是length
+    2.数据是数组可以用length 或者''，不能直接当条件
+    3.数据有NUll,不能用length，可以''或者是 直接当条件
+    */
+
+
+
+
+
+    
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
+  
 
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  
 })
