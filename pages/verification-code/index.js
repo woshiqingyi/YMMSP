@@ -8,8 +8,7 @@ Page({
   },
 
   onLoad(){
-    if (1 > 0) wo = 1,
-      console.log('11', wo)
+    
   },
 
   methods: {
@@ -30,7 +29,6 @@ Page({
       countDown(that, that.data.Count);
     } 
   },
-
 })
 
 function countDown(that, count) {

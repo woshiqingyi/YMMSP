@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": 0,
@@ -64,6 +64,13 @@
 					"id": -1,
 					"name": "条件判断",
 					"pathName": "pages/judgment/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "验证码",
+					"pathName": "pages/verification-code/index",
 					"scene": 1001
 				}
 			]

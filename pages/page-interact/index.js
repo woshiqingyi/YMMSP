@@ -5,8 +5,7 @@ Page({
 
   onLoad(){
    
-    this.onTo('wefifjhiefeififjfijf'),
-    this.f("yykh")
+   
   },
   
   onShowActionSheet(){

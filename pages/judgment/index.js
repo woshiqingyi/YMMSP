@@ -8,7 +8,6 @@ Page({
     ],
     AnalogData2:'',
     AnalogData2_1: 'AnalogData2_1',
-
     AnalogData3:null //null不能用length来判断
   },
 
@@ -53,9 +52,6 @@ Page({
     if (this.data.AnalogData2_1 == '') {
       console.log('AnalogData2_6')
     }
-
-
-
 
     if (this.data.AnalogData3) {
       console.log('AnalogData3_1')

@@ -30,10 +30,6 @@ Page({
 
   onLoad: function (event) {
     console.log('components', this.data.components)
-
- 
-
-    
     console.log('event', event)
   },
 
