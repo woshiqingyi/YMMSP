@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 5,
 			"list": [
 				{
 					"id": 0,
@@ -71,6 +71,13 @@
 					"id": -1,
 					"name": "验证码",
 					"pathName": "pages/verification-code/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "块状显示",
+					"pathName": "pages/block-show/index",
 					"scene": 1001
 				}
 			]

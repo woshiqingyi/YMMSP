@@ -1,0 +1,6 @@
+<view class='news-layout'>
+  <block wx:for='{{messageTypeItems}}'>
+    <view class='per-news' style="{{item.Value == NewsID? 'background-color: rgb(228, 228, 228);':'background-color: white'}}" id='{{item.Value}}' catchtap='onNews'>{{item.Name}}</view>
+  </block>
+</view>
+

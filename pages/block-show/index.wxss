@@ -1,0 +1,23 @@
+.news-layout{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30rpx;
+}
+
+.per-news{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360rpx;
+  height: 80rpx;
+  border-left: 1rpx whitesmoke solid;
+}
+
+page{
+  background-color: whitesmoke;
+   
+}

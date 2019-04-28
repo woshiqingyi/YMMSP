@@ -74,6 +74,11 @@ Page({
             remark: '弹框输入',
             url: '/pages/modal-input/index'
           }, 
+          {
+            title: 'BlockShow',
+            remark: '块状显示',
+            url: '/pages/block-show/index'
+          }, 
         ]
       },
       {
