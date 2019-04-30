@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": 0,
@@ -78,6 +78,13 @@
 					"id": -1,
 					"name": "块状显示",
 					"pathName": "pages/block-show/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "试验",
+					"pathName": "pages/experiment/index",
 					"scene": 1001
 				}
 			]

@@ -94,6 +94,11 @@ Page({
             remark: '判断',
             url: '/pages/judgment/index'
           },
+          {
+            title: 'Experiment',
+            remark: '试验',
+            url: '/pages/experiment/index'
+          },
         ]
       }
      

@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index",
+    "pages/experiment/index",
     "pages/block-show/index",
     "pages/checkbox/index",
     "pages/judgment/index",

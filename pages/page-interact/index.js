@@ -50,7 +50,7 @@ Page({
 
   onShowModal(){
     wx.showModal({
-      title: '提示',
+      showCancel:false,//取消按钮不显示
       content: '这是一个模态弹窗',
       success(res) {
         if (res.confirm) {

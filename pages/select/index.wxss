@@ -1,5 +1,4 @@
 @import "/utils/smalltitle.wxss";
-
 .per-option{
   height: 90rpx;
   border-bottom: 1rpx  whitesmoke solid;
