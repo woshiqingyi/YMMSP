@@ -19,6 +19,7 @@
 
     "pages/navigateto-parameter/index",
     "pages/experiment/index",
+    "pages/layout/index",
     "pages/judgment/index",
 
     "pages/collection-animation/index",

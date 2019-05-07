@@ -1,0 +1,6 @@
+<view class='small-title'>布局</view>
+
+<view class='layout1'>text-align（水平居中,只限于view）</view>
+
+
+<view class='layout2'>text-align（水平居中,只限于view）</view>

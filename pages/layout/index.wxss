@@ -1,0 +1,17 @@
+@import "/utils/smalltitle.wxss";
+
+.layout1{
+  text-align: center;
+}
+
+.layout2{
+  width: 500rpx;
+  margin:0 auto;
+}
+
+page{
+  font-size: 29rpx;
+}
+
+/* margin:0 auto; margin后面如果只有两个参数的话，第一个表示top和bottom，第二个表示left和right 
+因为0 auto，表示上下边界为0，左右则根据宽度自适应相同值（即居中）*/

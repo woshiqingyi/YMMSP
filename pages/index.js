@@ -115,6 +115,11 @@ Page({
             url: '/pages/judgment/index'
           },
           {
+            title: 'Layout',
+            remark: '布局',
+            url: '/pages/layout/index'
+          },
+          {
             title: 'Experiment',
             remark: '试验',
             url: '/pages/experiment/index'
