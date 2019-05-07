@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": 9,
 			"list": [
 				{
 					"id": 0,
@@ -85,6 +85,27 @@
 					"id": -1,
 					"name": "试验",
 					"pathName": "pages/experiment/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "收藏动画",
+					"pathName": "pages/collection-animation/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "公告栏",
+					"pathName": "pages/notice-bar/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "滑块视图",
+					"pathName": "pages/swiper/index",
 					"scene": 1001
 				}
 			]

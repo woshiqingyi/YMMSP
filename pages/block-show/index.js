@@ -1,5 +1,7 @@
 Page({
   data: {
+    UnclickedStyle:'background-color:white',
+    AlreadyclickedStyle:'background-color:rgb(228, 228, 228)',
     messageTypeItems:[
       {
         Value:-1,
@@ -13,7 +15,7 @@ Page({
         Value: 1,
         Name: '账户'
       },
-    ]
+    ],
   },
 
   onNews(event) {

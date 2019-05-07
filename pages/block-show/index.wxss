@@ -17,6 +17,7 @@
   border-left: 1rpx whitesmoke solid;
 }
 
+
 page{
   background-color: whitesmoke;
    

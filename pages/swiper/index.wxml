@@ -1,24 +1,14 @@
 <view class='small-title'>可滑动视图</view>
 
 <view class='layout-swiper'>
-  <view class='swiper-style' bindtap='onFirstPage' id="First" style='border-bottom:{{FirstPageColor}};color:{{FirstPageWord}}'>界面1</view>
-  <view class='swiper-style' bindtap='onSecondPage' id="Second" style='border-bottom:{{SecondPageColor}};color:{{SecondPageWord}}'>界面2</view>
-</view>
-<swiper class="swiper-pages" current="{{index}}" bindchange="onMove">
-  <swiper-item class='per-page'>界面1</swiper-item>
-  <swiper-item class='per-page'>界面2</swiper-item>
-</swiper>
-
-<view class='small-title'>可滑动视图</view>
-
-<view class='layout-swiper'>
-  <view class='swiper-style' bindtap='onFirstPage' id="First" style='border-bottom:{{FirstPageColor}};color:{{FirstPageWord}}'>界面1</view>
-  <view class='swiper-style' bindtap='onSecondPage' id="Second" style='border-bottom:{{SecondPageColor}};color:{{SecondPageWord}}'>界面2</view>
-  <view class='swiper-style' bindtap='onThirdPage' id="Third" style='border-bottom:{{ThirdPageColor}};color:{{ThirdPageWord}}'>界面3</view>
+  <block wx:for='{{SwiperItems}}'>
+      <view class='swiper-style' bindtap='changePage' style="{{item.Value == SwiperID? SwiperStyle :''}}" id="{{item.Value}}">{{item.Name}}</view>
+  </block>
 </view>
 
-<swiper class="swiper-pages" current="{{index}}" bindchange="onMove">
+<swiper class="swiper-pages" current="{{SwiperID}}" bindchange="onMove">
   <swiper-item class='per-page'>界面1</swiper-item>
   <swiper-item class='per-page'>界面2</swiper-item>
   <swiper-item class='per-page'>界面3</swiper-item>
+  <swiper-item class='per-page'>界面4</swiper-item>
 </swiper>

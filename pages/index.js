@@ -82,6 +82,21 @@ Page({
         ]
       },
       {
+        title:'动画',
+        children:[
+          {
+            title: 'CollectionAnimation',
+            remark: '收藏动画',
+            url: '/pages/collection-animation/index'
+          },
+          {
+            title: 'NoticeBar',
+            remark: '公告栏',
+            url: '/pages/notice-bar/index'
+          }
+        ]
+      },
+      {
         title: '进阶',
         children: [
           {

@@ -1,0 +1,26 @@
+@keyframes around {
+  from {
+   margin-left: 100%;
+  }
+  to {
+   /* var接受传入的变量 */
+   margin-left: var(--marqueeWidth--);
+  }
+ }
+ 
+.marquee_container{
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.marquee_text{
+  color:#b4b4b4;
+  white-space: nowrap;
+  animation: around var(--allTs--)  infinite linear;
+}
+
+.shiyan-layout{
+  margin-left: 200rpx;
+  margin-right: 200rpx;
+  overflow: hidden;
+}

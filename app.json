@@ -1,12 +1,9 @@
 {
   "pages":[
     "pages/index",
-    "pages/experiment/index",
     "pages/block-show/index",
     "pages/checkbox/index",
-    "pages/judgment/index",
     "pages/modal-input/index",
-    "pages/navigateto-parameter/index",
     "pages/verification-code/index",
     "pages/button/index",
     "pages/remark-tips/index",
@@ -18,7 +15,14 @@
     "pages/page-interact/index",
     "pages/upload-picture/index",
     "pages/classification/index",
-    "pages/data-display/index"
+    "pages/data-display/index",
+
+    "pages/navigateto-parameter/index",
+    "pages/experiment/index",
+    "pages/judgment/index",
+
+    "pages/collection-animation/index",
+    "pages/notice-bar/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
