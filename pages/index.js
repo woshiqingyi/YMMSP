@@ -86,13 +86,18 @@ Page({
         children:[
           {
             title: 'CollectionAnimation',
-            remark: '收藏动画',
+            remark: '动态效果',
             url: '/pages/collection-animation/index'
           },
           {
             title: 'NoticeBar',
             remark: '公告栏',
             url: '/pages/notice-bar/index'
+          },
+          {
+            title: 'Wave',
+            remark: '波浪',
+            url: '/pages/wave/index'
           }
         ]
       },
@@ -116,12 +121,9 @@ Page({
           },
         ]
       }
-     
     ]
-    
   },
 
-  
   onLoad: function (options) {
     console.log('components', this.data.components)
   },

@@ -1,3 +1,4 @@
+@import "/utils/smalltitle.wxss";
 @keyframes around {
   from {
    margin-left: 100%;
@@ -19,7 +20,12 @@
   animation: around var(--allTs--)  infinite linear;
 }
 
-.shiyan-layout{
+.shiyan-layout1{
+  margin-top: 30rpx;
+}
+
+.shiyan-layout2{
+  margin-top: 30rpx;
   margin-left: 200rpx;
   margin-right: 200rpx;
   overflow: hidden;

@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 10,
 			"list": [
 				{
 					"id": 0,
@@ -106,7 +106,14 @@
 					"id": -1,
 					"name": "滑块视图",
 					"pathName": "pages/swiper/index",
+					"query": "",
 					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "波浪",
+					"pathName": "pages/wave/index",
+					"scene": null
 				}
 			]
 		}

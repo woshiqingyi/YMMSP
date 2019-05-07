@@ -1,1 +1,26 @@
-/* pages/collection-animation/index.wxss */
+@import "/utils/smalltitle.wxss";
+.collection-style1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-style2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: headRotate 6s linear infinite;
+}
+
+@keyframes headRotate{
+  100% {transform: rotate(360deg);}
+}
+
+.icon-image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.detail-hover{
+  transform: scale(1.1,1.1) ; /*缩放*/
+}

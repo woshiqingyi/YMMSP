@@ -1,2 +1,11 @@
-<!--pages/collection-animation/index.wxml-->
-<text>pages/collection-animation/index.wxml</text>
+<view class='small-title'>缩放变化</view>
+
+<view class='collection-style1' hover-class='detail-hover' catchtap='changeImage'>
+  <image class='icon-image' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+</view>
+
+<view class='small-title'>转圈</view>
+
+<view class='collection-style2' >
+  <image class='icon-image' src='{{Imgurl}}'></image>
+</view>

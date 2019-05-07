@@ -8,3 +8,18 @@
 
  
 
+<view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view><view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view><view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view><view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view><view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view>vvvvvddccdcwsefdvvvvvvvfejkaaaaaqs1111525erg  <view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view>  <view class='collection-style' hover-class='detail-hover' catchtap='collectPerNew'>
+        <image class='icon-image-collection' src='{{IsImgurl?ImgurlSuccess:Imgurl}}'></image>
+      </view>

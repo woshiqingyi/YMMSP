@@ -6,18 +6,7 @@ Page({
    Counting: false,
    isShowInfo: false
   },
-
-  onLoad(){
-    
-  },
-
-  methods: {
-    __hideInfo: function () {
-      this.setData({
-        isShowInfo: true
-      })
-    }
-  },
+  
 
   onGetCode(){
     var that = this;

@@ -1,6 +1,18 @@
- <view class='shiyan-layout'>
+ <view class='small-title'>公告栏</view>
+
+  <view class='shiyan-layout1'>
    <view class="marquee_container" style="--marqueeWidth--:{{marqueeW}};--allTs--:{{allT}};">
       <view class="marquee_text" style="font-size:{{size}}px">{{content_t}}</view>
   </view>
  </view>
+  
+ 
+ <view class='shiyan-layout2'>
+   <view class="marquee_container" style="--marqueeWidth--:{{marqueeW}};--allTs--:{{allT}};">
+      <view class="marquee_text" style="font-size:{{size}}px">{{content_t}}</view>
+  </view>
+ </view>
+
+
+
   

@@ -22,7 +22,8 @@
     "pages/judgment/index",
 
     "pages/collection-animation/index",
-    "pages/notice-bar/index"
+    "pages/notice-bar/index",
+    "pages/wave/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
