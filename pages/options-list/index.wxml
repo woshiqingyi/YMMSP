@@ -1,0 +1,26 @@
+ <checkbox-group bindchange='optionAllStores'>
+    <checkbox class='first-store-layout'>
+      <view class='checkbox-style'>
+        <text class='per-content'>店铺名称</text>
+        <text class='per-content'>出账金额</text>
+        <text class='per-content'>出账时间</text>
+      </view>
+    </checkbox>
+  </checkbox-group>
+<view class='line-style'></view>
+
+<checkbox-group bindchange='optionStore'>
+  <block wx:for='{{StoreItems}}'>
+    <checkbox class='store-layout' checked="{{AllOptions}}" value='{{item.ID}}'>
+      <view class='checkbox-style'>
+       <text class='per-content'>{{item.StoreName}}</text>
+        <text class='per-content'>{{item.Amount}}</text>
+        <text class='per-content'>{{item.CreateTime}}</text>
+      </view>
+    </checkbox>
+   </block>
+</checkbox-group>
+
+
+<view class='button-click-lightblue' catchtap='onNextPutForward' hover-class='click-show-background-lightblue' hover-stay-time='50'>下一步</view>
+

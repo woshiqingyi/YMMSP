@@ -1,0 +1,9 @@
+  
+  
+  <button  class='per-option' style='hover-stop-propagation:true; padding-left:0px;padding-right:0px;border: 0;' open-type="contact" hover-class="click-show" hover-stay-time="100">
+      <view class='per-info'>
+       
+        <text class="icon-text">联系客服</text>
+      </view>
+     
+  </button>

@@ -1,0 +1,24 @@
+.per-option{
+  border-bottom: 1rpx solid rgb(236, 236, 236) !important; 
+  height: 130rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-top: 0rpx solid rgb(236, 236, 236);
+}
+
+.per-info{
+  display: flex;
+  align-items: center;
+}
+
+.icon-text{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+
+.per-option::after{ 
+  border: 0;
+}
+/*这个是最重要的*/

@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1rpx rgb(235, 235, 235) solid;
-  background-color: white;
+  background-color:white;
 }
 
 .small-title{

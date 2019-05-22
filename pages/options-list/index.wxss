@@ -1,0 +1,130 @@
+.first-store-layout{
+  margin-top:50rpx;
+  margin-left: 20rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.store-layout{
+  margin-left: 20rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1rpx rgb(221, 221, 221) solid;
+}
+
+
+.checkbox-layout{
+  margin-top: 20rpx;
+}
+
+.checkbox-style{
+  width: 630rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.store-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-style{
+  border-top: 1rpx rgb(226, 226, 226) solid;
+  margin-top: 20rpx;
+}
+
+.per-content{
+  width: 200rpx;
+  text-align: center;
+   display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+   height: 45rpx
+}
+
+.per-activation{
+  font-size: 20rpx;
+}
+
+.per-content-input{
+   width: 200rpx;
+  text-align: center;
+   display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+  border: 1rpx rgb(209, 209, 209) solid;
+  border-radius: 10rpx;
+}
+
+.checkbox-layout{
+  display: flex;
+  align-items: center;
+}
+
+.button-click-lightblue{
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  background-color: rgba(20, 151, 238, 0.863);
+  color:whitesmoke;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  font-size: 30rpx;
+  height: 86rpx;
+}
+
+.click-show-background-lightblue{
+  background-color: rgba(85, 170, 226, 0.863);
+}
+
+.info-per-perfect{
+  height: 85rpx;
+  border-bottom: 1rpx  whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  font-size: 27rpx;
+}
+
+.perfect-text{
+  margin-left: 30rpx;
+  width: 250rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+  color: black
+}
+
+.perfect-input{
+  margin-left: 15rpx;
+  color: gray;
+  width: 230rpx;
+  text-align: center;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+}
+
+page{
+  font-size: 30rpx;
+}
+

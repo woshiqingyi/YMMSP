@@ -105,6 +105,16 @@ Page({
         title: '进阶',
         children: [
           {
+            title: 'OptionsList',
+            remark: '店铺列表',
+            url: '/pages/options-list/index'
+          },
+          {
+            title: 'ChangeButton',
+            remark: '修改按钮',
+            url: '/pages/change-button/index'
+          },
+          {
             title: 'NavigatetoParameter',
             remark: '多传参',
             url: '/pages/navigateto-parameter/index'

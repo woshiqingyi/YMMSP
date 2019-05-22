@@ -1,6 +1,4 @@
-
 Page({
-
   data: {
     SwiperID: 0,
     SwiperStyle: 'border-bottom:1rpx red solid;color:red',
