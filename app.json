@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index",
     "pages/block-show/index",
     "pages/checkbox/index",
@@ -16,22 +16,21 @@
     "pages/upload-picture/index",
     "pages/classification/index",
     "pages/data-display/index",
-
     "pages/collection-animation/index",
     "pages/notice-bar/index",
     "pages/wave/index",
-
     "pages/navigateto-parameter/index",
     "pages/experiment/index",
     "pages/layout/index",
     "pages/judgment/index",
     "pages/options-list/index",
     "pages/change-button/index"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f5f5f5",
     "navigationBarTitleText": "YMMSP",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }

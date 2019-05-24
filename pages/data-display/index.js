@@ -1,37 +1,27 @@
 Page({
-
-
   data: {
-    components:[
+    DatasShowTitle:[
       {
-        First:'First',
-        Second:'Second',
-        Third:'Third',
-        Fourth:'Fourth',
-        Fifth:'Fifth'
+        Name: '店铺名称',
       },
       {
-        First: 'First',
-        Second: 'Second',
-        Third: 'Third',
-        Fourth: 'Fourth',
-        Fifth: 'Fifth'
+        Name: '所属平台',
       },
       {
-        First: 'First',
-        Second: 'Second',
-        Third: 'Third',
-        Fourth: 'Fourth',
-        Fifth: 'Fifth'
+        Name: '所属平台',
       }
-    ]
+    ],
+    DatasShowContent: [
+      {
+        First: 'First',
+        Second: 'Second',
+        Third: 'Third',
+      },
+      {
+        First: 'First',
+        Second: 'Second',
+        Third: 'Third',
+      },
+    ],
   },
-
-
-  onLoad: function (event) {
-    console.log('components', this.data.components)
-    console.log('event', event)
-  },
-
-  
 })

@@ -1,0 +1,82 @@
+
+.Y-class{
+  border-radius: 10rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  background-color: rgba(20, 151, 238, 0.863);
+  color:whitesmoke;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  font-size: 28rpx;
+  height: 80rpx;
+}
+
+.button-click-green{
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  background-color: #2aa515;
+  color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  height: 80rpx;
+}
+
+
+.button-click-blue{
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  background-color: rgb(15, 88, 247);
+  color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  height: 80rpx;
+}
+
+.button-click-orange{
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  background-color: #e16531;
+  color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  height: 80rpx;
+}
+
+
+
+.click-show-word{
+  color: lightgray
+}
+
+.click-show-background-orange{
+  background-color: hsl(18, 63%, 66%);
+}
+
+.click-show-background-blue{
+  background-color: rgb(84, 129, 226);
+}
+
+.click-show-background-lightblue{
+  background-color: rgba(85, 170, 226, 0.863);
+}
+
+.click-show-background-green{
+  background-color: #53be40;
+}
+
+
+
+

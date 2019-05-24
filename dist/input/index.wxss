@@ -1,0 +1,30 @@
+
+.many-input-fresh{
+  margin-top: 15rpx;
+  font-size: 30rpx;
+}
+
+.per-input-fresh{
+  height: 90rpx;
+  border-bottom: 1rpx  whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+}
+
+.text-fresh{
+  margin-left: 35rpx;
+}
+
+.input-fresh{
+  width: 335rpx;
+  margin-right: 50rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+}
+

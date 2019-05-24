@@ -52,7 +52,6 @@ Page({
     if (this.data.AnalogData2_1 == '') {
       console.log('AnalogData2_6')
     }
-
     if (this.data.AnalogData3) {
       console.log('AnalogData3_1')
     }

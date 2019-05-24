@@ -1,37 +1,25 @@
 @import "/utils/smalltitle.wxss";
-.layout-style{
-  margin-top: 25rpx;
-  background-color: whitesmoke;
-}
 
-.text-style1{
+.title{
   display: flex;
   justify-content: space-around;
-  margin-top: 25rpx;
+}
+
+.per-title{
+  width: 360rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 29rpx;
   color: gray;
 }
 
-.per-content{
-  display: flex;
-  flex-direction: column;
-}
-
-.content-style{
-  margin-top: 15rpx;
+.content{
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  font-size: 26rpx;
-  color: gray;
-  background-color: white
-}
-
-.per-content{
-  width: 150rpx;
-  display: flex;
-  align-items: center;
-  word-break: break-alls
+  margin-top:10rpx;
+  background-color: white;
+  height: 50rpx;
 }
 
 .info-per{
@@ -46,7 +34,7 @@
   font-size: 29rpx;
 }
 
-.text-style2{
+.text-style{
   margin-left: 30rpx;
   width: 250rpx;
   display: -webkit-box;
@@ -56,7 +44,6 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1; 
 }
-
 
 .input-style{
   color: gray;
@@ -68,6 +55,10 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1; 
 }
+
+
+
+
 
 page{
   background-color: whitesmoke

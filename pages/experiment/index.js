@@ -4,18 +4,17 @@ Page({
 
   },
 
-  onLoad: function (options) {
-
+  onLoad() {
+   
   },
 
-  onPullDownRefresh: function () {
-    console.log('11')
-  },
+  woshi(){
+    console.log('1111')
+  }
 
-  
-  onReachBottom: function () {
-    console.log('22')
-  },
+ 
+
+
 
  
 })

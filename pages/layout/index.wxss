@@ -9,6 +9,12 @@
   margin:0 auto;
 }
 
+.layout3{
+  position: absolute;
+  top: 260rpx;
+  left: 65rpx;
+}
+
 page{
   font-size: 29rpx;
 }

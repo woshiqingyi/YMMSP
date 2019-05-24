@@ -1,11 +1,7 @@
-
 Page({
-
   data: {
 
   },
-
-  
   onLoad: function (options) {
     if (1) {
       console.log('1')
@@ -17,6 +13,4 @@ Page({
       console.log('3')
     }
   },
-  
-
 })

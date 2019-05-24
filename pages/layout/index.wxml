@@ -3,3 +3,7 @@
 <view class='layout1'>text-align（水平居中,只限于view）</view>
 
 <view class='layout2'>text-align（水平居中,只限于view）</view>
+
+<view class='small-title'>绝对位置</view>
+
+<view class='layout3'>绝对位置内容</view>

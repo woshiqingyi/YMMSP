@@ -1,5 +1,5 @@
 {
-  "usingComponents": {},
-  
-  "onReachBottomDistance": 50
+  "usingComponents": {
+    "Y-button": "/dist/button/index"
+  }
 }
