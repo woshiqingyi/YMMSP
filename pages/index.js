@@ -134,6 +134,21 @@ Page({
             remark: '试验',
             url: '/pages/experiment/index'
           },
+          {
+            title: 'ClassificationList',
+            remark: '商品分类',
+            url: '/pages/classification-list/index'
+          },
+          {
+            title: 'ShoppingCart',
+            remark: '购物车',
+            url: '/pages/shopping-cart/index'
+          }, 
+          {
+            title: 'Steps',
+            remark: '步骤条',
+            url: '/pages/steps/index'
+          }, 
         ]
       }
     ]

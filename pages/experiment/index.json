@@ -1,5 +1,9 @@
 {
   "usingComponents": {
-    "Y-button": "/dist/button/index"
+    "y-button": "/dist/button/index",
+    "Y-swiper": "/dist/swiper/index",
+    "Y-swiper-item": "/dist/swiper-item/index",
+    "y-input": "/dist/input/index",
+    "y-data-display": "/dist/data-display/index"
   }
 }

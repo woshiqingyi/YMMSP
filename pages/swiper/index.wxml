@@ -6,9 +6,11 @@
   </block>
 </view>
 
-<swiper class="swiper-pages" current="{{SwiperID}}" bindchange="onMove">
+<swiper class="swiper-pages"  current="{{SwiperID}}" bindchange="onMove">
   <swiper-item class='per-page'>界面1</swiper-item>
   <swiper-item class='per-page'>界面2</swiper-item>
   <swiper-item class='per-page'>界面3</swiper-item>
   <swiper-item class='per-page'>界面4</swiper-item>
 </swiper>
+
+

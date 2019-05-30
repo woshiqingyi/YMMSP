@@ -1,0 +1,51 @@
+.layout{
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.circular-success{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1rpx #1fa0e8 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.per-circular-success{
+  display: flex;
+  align-items: center;
+}
+
+.circular-being{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1rpx #1fa0e8 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1fa0e8;
+  font-size: 29rpx;
+  color: white;
+}
+
+.line-style{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-top: 1rpx #1fa0e8 solid;
+  width: 65rpx;
+}
+
+.last-style{
+  width: 65rpx;
+}
+
+.icon-image{
+  height: 33rpx;
+  width: 33rpx;
+}
+

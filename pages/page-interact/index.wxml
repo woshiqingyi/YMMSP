@@ -9,5 +9,3 @@
 
   <view class='small-title'>显示模态对话框</view>
   <view class='per-show' bindtap='onShowModal'>按钮</view>
-
- 

@@ -1,0 +1,70 @@
+.news-layout{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30rpx;
+}
+
+.per-news{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360rpx;
+  height: 80rpx;
+  border-left: 1rpx whitesmoke solid;
+}
+
+.news-layout1{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30rpx;
+}
+
+.per-news1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360rpx;
+  height: 80rpx;
+  border-left: 1rpx whitesmoke solid;
+}
+
+.shiyan{
+  width: 120rpx;
+  height: 100rpx;
+  background-color: #ffffff;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yangshi{
+  display: flex;
+}
+
+.small-yangshi{
+  display: flex;
+  flex-direction: column;
+}
+
+.xiao{
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.yangshi3{
+  display: flex;
+  
+}
+
+page{
+  background-color: whitesmoke;
+}

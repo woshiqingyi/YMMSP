@@ -1,0 +1,45 @@
+
+
+
+
+
+
+<view class='layout'>
+  <view class='circular-success'>
+    <image class='icon-image' src='/image/tick.png'></image>
+  </view>
+
+  <view class='line-style'></view>
+
+  <view class='circular-being'>2</view>
+
+  <view class='line-style'></view>
+  <view class='circular'></view>
+  <view class='line-style'></view>
+  <view class='circular'></view>
+</view>
+
+
+<!-->开头<-->
+<view class='per-circular-success'>
+  <view class='circular-success'>
+    <image class='icon-image' src='/image/tick.png'></image>
+  </view>
+  <view class='line-style'></view>
+</view>
+
+<!-->2<-->
+
+<view class='per-circular-success'>
+  <view class='line-style'></view>
+  <view class='circular-being'>2</view>
+  <view class='line-style'></view>
+</view>
+
+<!-->结尾<-->
+
+<view class='per-circular-success'>
+  <view class='line-style'></view>
+  <view class='circular-being'>2</view>
+  <view class='last-style'></view>
+</view>

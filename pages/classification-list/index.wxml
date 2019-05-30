@@ -1,0 +1,94 @@
+<!-->
+<view class='news-layout'>
+  <block wx:for='{{messageTypeItems}}'>
+    <view
+     class='per-news' 
+     style="{{item.Value == NewsID?AlreadyclickedStyle:UnclickedStyle}}"
+     id='{{item.Value}}'
+     catchtap='onNews'>{{item.Name}}
+    </view>
+  </block>
+</view>
+<-->
+
+<view class='yangshi'>
+
+    <scroll-view scroll-y='true' style="height:{{windowHeight}}px;width:120rpx" >
+   
+        <view class='small-yangshi'>
+          <block wx:for='{{messageTypeItems}}'>
+            <view
+            class='shiyan' 
+            style="{{item.Value == NewsID?AlreadyclickedStyle:UnclickedStyle}}"
+            id='{{item.Value}}'
+            catchtap='onNews'>{{item.Name}}
+            </view>
+          </block>
+        </view>
+    </scroll-view>
+    
+    <scroll-view  scroll-y='true' style='height:{{windowHeight}}px;width:630rpx'>
+       
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+             <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+             <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+        <view>1111</view>
+  
+
+    </scroll-view>
+ 
+
+</view>
+   
+
+
+
+
+
+
+
+
+
+
+
+

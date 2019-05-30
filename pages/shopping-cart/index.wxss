@@ -1,0 +1,50 @@
+.layout{
+  display: flex;
+  margin-left: 50rpx;
+  margin-top: 60rpx;
+}
+
+.left{
+  height: 60rpx;
+  width: 60rpx;
+  background-color: white;
+  border: 1rpx whitesmoke solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10rpx;
+  border-top-left-radius: 10rpx;
+}
+
+.right{
+  height: 60rpx;
+  width: 60rpx;
+  background-color: white;
+  border: 1rpx whitesmoke solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.two{
+  height: 60rpx;
+  width: 60rpx;
+  background-color: white;
+  border-top: 1rpx whitesmoke solid;
+  border-bottom: 1rpx whitesmoke solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
+
+.icon-image{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+page{
+  background-color: whitesmoke;
+}

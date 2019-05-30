@@ -1,7 +1,6 @@
-
 .many-input-fresh{
-  margin-top: 15rpx;
   font-size: 30rpx;
+  
 }
 
 .per-input-fresh{
@@ -11,15 +10,13 @@
   align-items: center;
   justify-content:space-between;
   background-color: white;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }
 
 .text-fresh{
-  margin-left: 35rpx;
-}
-
-.input-fresh{
-  width: 335rpx;
-  margin-right: 50rpx;
+  width: 265rpx;
+  margin-left: 40rpx;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -28,3 +25,11 @@
   -webkit-line-clamp: 1; 
 }
 
+.input-fresh{
+  width: 375rpx;
+  margin-right: 50rpx;
+}
+
+page{
+  background-color: whitesmoke
+}

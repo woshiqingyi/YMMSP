@@ -1,1 +1,4 @@
-<view class='Y-class' hover-class='click-show-background-lightblue' hover-stay-time='50'>注册登陆</view>
+<view class="my-class button-style"  hover-class='click-show-background-lightblue' hover-stay-time='50'>
+  {{title}}
+</view>
+

@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index",
+    "pages/steps/index",
+    "pages/shopping-cart/index",
+    "pages/classification-list/index",
     "pages/block-show/index",
     "pages/checkbox/index",
     "pages/modal-input/index",
@@ -25,12 +28,12 @@
     "pages/judgment/index",
     "pages/options-list/index",
     "pages/change-button/index"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f5f5f5",
     "navigationBarTitleText": "YMMSP",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

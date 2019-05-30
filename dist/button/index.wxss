@@ -1,5 +1,5 @@
 
-.Y-class{
+.button-style{
   border-radius: 10rpx;
   margin-left: 50rpx;
   margin-right: 50rpx;
@@ -10,6 +10,14 @@
   align-items: center;
   font-size: 28rpx;
   height: 80rpx;
+}
+
+.my-class-black{
+  background-color: balck;
+}
+
+.my-class-red{
+  background-color: red;
 }
 
 .button-click-green{
@@ -25,7 +33,6 @@
   font-size: 25rpx;
   height: 80rpx;
 }
-
 
 .button-click-blue{
   border-radius: 10rpx;

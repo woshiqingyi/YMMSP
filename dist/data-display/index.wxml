@@ -1,0 +1,4 @@
+<view class="info-per">
+  <text class='text-style'>{{title}}</text>
+  <input class='input-style' disabled='true' value='{{content}}'></input>
+</view>
