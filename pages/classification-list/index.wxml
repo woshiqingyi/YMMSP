@@ -13,7 +13,7 @@
 
 <view class='yangshi'>
 
-    <scroll-view scroll-y='true' style="height:{{windowHeight}}px;width:120rpx" >
+    <scroll-view scroll-y='true' style="height:{{windowHeight}}px;width:120rpx" scroll-top='1000' scroll-left='1000'>
    
         <view class='small-yangshi'>
           <block wx:for='{{messageTypeItems}}'>
@@ -28,7 +28,6 @@
     </scroll-view>
     
     <scroll-view  scroll-y='true' style='height:{{windowHeight}}px;width:630rpx'>
-       
         <view>1111</view>
         <view>1111</view>
         <view>1111</view>

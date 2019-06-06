@@ -1,66 +1,35 @@
-// pages/steps/index.js
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    step1:1,
+    step2:2,
+    step3:3,
+    step4:4,
+    step5:5,
+    
+    totalsteps:4,
+    status:2,
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  onLoad(){
+    if (this.data.totalsteps == 2){
+      this.setData({
+        linewidth: 120,
+        iconimage: 33,
+        contentwidth: 250
+      })
+    } else if (this.data.totalsteps == 3){
+      this.setData({
+        linewidth:65,
+        iconimage:33,
+        contentwidth: 200
+      })
+    } else if (this.data.totalsteps == 4) {
+      this.setData({
+        linewidth:45,
+        iconimage:33,
+        contentwidth:150
+      })
+    }
   }
+
 })

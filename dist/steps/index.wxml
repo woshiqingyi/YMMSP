@@ -1,0 +1,28 @@
+
+
+  <view class='per-step'>
+    <view class='per-icon'>
+        <view class="{{step == 1?'line-hidden-style':'line-style-left'}}" style='width:{{linewidth}}rpx'></view>
+        <view wx-if='{{status + 1 > step}}' class='circular-success'>
+          <image  src='/image/tick.png' style='height:{{iconimage}}rpx;width:{{iconimage}}rpx;'></image>
+        </view>
+        <view wx-if='{{status < step}}' class='circular-being'><slot></slot></view>
+        <view  class="{{totalsteps == step?'line-hidden-style':'line-style-right'}}" style='width:{{linewidth}}rpx'></view>
+    </view>
+    <text class='content' style='width:{{contentwidth}}rpx'>实名认证认证认证认证认证认证证认证认证证认证认证证认证认证</text>
+  </view>
+
+ 
+
+
+
+
+
+
+
+  
+
+
+
+
+

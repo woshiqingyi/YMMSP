@@ -4,6 +4,7 @@
     "Y-swiper": "/dist/swiper/index",
     "Y-swiper-item": "/dist/swiper-item/index",
     "y-input": "/dist/input/index",
-    "y-data-display": "/dist/data-display/index"
+    "y-data-display": "/dist/data-display/index",
+    "y-steps": "/dist/steps/index"
   }
 }
