@@ -25,9 +25,7 @@ Component({
 
     totalsteps: 4,
     status: 2,
-    linewidth: 65,
-    iconimage: 33,
-    contentwidth: 200
+   
   },
 
   /**
@@ -35,7 +33,7 @@ Component({
    */
 
 
-  created(){
+  ready(){
     if (this.data.totalsteps == 2) {
       this.setData({
         linewidth: 120,

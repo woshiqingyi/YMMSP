@@ -2,14 +2,13 @@
 <y-button  type='black' my-class="red-text" title='wishiqingi' bindtap="onButton"/>
 
 
-
 <y-input title='名称名称名称名称名称' placeholder='请输入名称'></y-input>
 
-
 <view class='steps-layout'>
-  <y-steps totalsteps='3' status='1' step='1'>1</y-steps>
-  <y-steps totalsteps='3' status='1' step='2'>2</y-steps>
-  <y-steps totalsteps='3' status='1' step='3'>3</y-steps>
+  <y-steps totalsteps='4' status='1' step='1'>1</y-steps>
+  <y-steps totalsteps='4' status='1' step='2'>2</y-steps>
+  <y-steps totalsteps='4' status='1' step='3'>3</y-steps>
+  <y-steps totalsteps='4' status='1' step='4'>4</y-steps>
 </view>
 
 
