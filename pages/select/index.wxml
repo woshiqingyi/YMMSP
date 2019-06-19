@@ -9,9 +9,7 @@
       </view>
     </view>
   </picker>
-
   
-
 <view class='small-title'>下拉框单选（提示语）</view>
   <picker bindchange='chooseOption' mode="selector" range="{{Management}}" range-key="{{'ManagementName'}}" >
     <view class="per-option">
@@ -23,7 +21,17 @@
     </view>
   </picker>
 
+<view class='small-title'>多选下拉框</view>
 
+ <picker bindchange='chooseOption' mode="selector" range="{{Management}}" range-key="{{'ManagementName'}}" >
+    <view class="per-option">
+      <text class='option-title'>经营类别</text>
+      <view class="option-text">
+        <input class='option-choose-placeholder' disabled='ture' placeholder='请选择店铺所在国家' value='{{Management[ManagementIndexValue].ManagementName}}'> </input>
+        <image class="option-image" src='/image/click.png'></image>
+      </view>
+    </view>
+ </picker>
 
 
 

@@ -5,6 +5,7 @@
     "Y-swiper-item": "/dist/swiper-item/index",
     "y-input": "/dist/input/index",
     "y-data-display": "/dist/data-display/index",
+    "y-step": "/dist/step/index",
     "y-steps": "/dist/steps/index"
   }
 }

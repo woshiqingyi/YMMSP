@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 17,
+			"current": 20,
 			"list": [
 				{
 					"id": 0,
@@ -164,7 +164,29 @@
 					"id": -1,
 					"name": "步骤条",
 					"pathName": "pages/steps/index",
+					"query": "",
 					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "进度条",
+					"pathName": "pages/progress/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "下拉框",
+					"pathName": "pages/select/index",
+					"query": "",
+					"scene": 1001
+				},
+				{
+					"id": -1,
+					"name": "实验2",
+					"pathName": "pages/experiment-two/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

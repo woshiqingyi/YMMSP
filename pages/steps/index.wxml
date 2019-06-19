@@ -1,4 +1,5 @@
 <view class='steps-layout'>
+
   <view class='per-step'>
     <view class='per-icon'>
         <view class="{{step1 == 1?'line-hidden-style':'line-style-left'}}" style='width:{{linewidth}}rpx'></view>
@@ -31,18 +32,6 @@
       </view>
       <view wx-if='{{status < step3}}' class='circular-being'>3</view>
       <view  class="{{totalsteps == step3?'line-hidden-style':'line-style-right'}}" style='width:{{linewidth}}rpx'></view>
-    </view> 
-    <text class='content' style='width:{{contentwidth}}rpx'>审核进度核进度核进度核进度核进度核进度</text>
-  </view>
-
-  <view class='per-step'>
-    <view class='per-icon'>
-      <view class="{{step4 == 1?'line-hidden-style':'line-style-left'}}" style='width:{{linewidth}}rpx'></view>
-      <view wx-if='{{status + 1 > step4}}' class='circular-success'>
-         <image src='/image/tick.png' style='height:{{iconimage}}rpx;width:{{iconimage}}rpx;'></image>
-      </view>
-      <view wx-if='{{status < step4}}' class='circular-being'>4</view>
-      <view  class="{{totalsteps == step4?'line-hidden-style':'line-style-right'}}" style='width:{{linewidth}}rpx'></view>
     </view> 
     <text class='content' style='width:{{contentwidth}}rpx'>审核进度核进度核进度核进度核进度核进度</text>
   </view>

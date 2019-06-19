@@ -1,0 +1,73 @@
+.circular-success{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1rpx #1fa0e8 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-being{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1rpx #1fa0e8 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1fa0e8;
+  font-size: 29rpx;
+  color: white;
+}
+
+.per-icon{
+  display: flex;
+  align-items: center;
+}
+
+.icon-image{
+  height: 33rpx;
+  width: 33rpx;
+}
+
+.steps-layout{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.content{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: gray;
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.per-step{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-hidden-style{
+  border-top: 1rpx white solid;
+  margin-left: 20rpx;
+}
+
+.line-style-left{
+  margin-right: 20rpx;
+  border-top: 1rpx #1fa0e8 solid;
+}
+
+.line-style-right{
+  border-top: 1rpx #1fa0e8 solid;
+  margin-left: 20rpx;
+}
+
+
+

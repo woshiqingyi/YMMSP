@@ -7,7 +7,7 @@ Page({
     step4:4,
     step5:5,
     
-    totalsteps:4,
+    totalsteps:3,
     status:2,
   },
   onLoad(){

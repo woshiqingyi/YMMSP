@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index",
+    "pages/progress/index",
     "pages/steps/index",
     "pages/shopping-cart/index",
     "pages/classification-list/index",
@@ -24,6 +25,7 @@
     "pages/wave/index",
     "pages/navigateto-parameter/index",
     "pages/experiment/index",
+    "pages/experiment-two/index",
     "pages/layout/index",
     "pages/judgment/index",
     "pages/options-list/index",

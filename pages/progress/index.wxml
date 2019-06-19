@@ -1,0 +1,8 @@
+<view class='small-title'>进度条</view>
+
+<view class='layout'>
+  <view class='progress-layout' style='width:{{TotalWidth}}rpx;'>
+    <view class='per-progress' style='width:{{TotalWidth/Width*Percentage}}rpx;'></view>
+  </view>
+</view>
+

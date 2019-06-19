@@ -11,9 +11,7 @@ Page({
     AnalogData3:null //null不能用length来判断
   },
 
-
   onLoad: function (options) {
-
     if (this.data.AnalogData1){
       console.log('AnalogData1_1')
     } 
@@ -36,10 +34,10 @@ Page({
     
     if (this.data.AnalogData2){
       console.log('AnalogData2_1')
-    } 
+    }
     if (this.data.AnalogData2.length) { 
       console.log('AnalogData2_2')
-    } 
+    }
     if (this.data.AnalogData2=='') {
       console.log('AnalogData2_3')
     }

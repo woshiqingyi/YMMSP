@@ -135,6 +135,11 @@ Page({
             url: '/pages/experiment/index'
           },
           {
+            title: 'ExperimentTwo',
+            remark: '试验2',
+            url: '/pages/experiment-two/index'
+          },
+          {
             title: 'ClassificationList',
             remark: '商品分类',
             url: '/pages/classification-list/index'
@@ -148,6 +153,11 @@ Page({
             title: 'Steps',
             remark: '步骤条',
             url: '/pages/steps/index'
+          },
+          {
+            title: 'Progress',
+            remark: '进度条',
+            url: '/pages/progress/index'
           }, 
         ]
       }

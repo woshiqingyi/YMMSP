@@ -3,12 +3,11 @@ Component({
   properties: {
     totalsteps: { // 总步骤
       type: String,
-      value: '',
+      value: ''
     },
     status: { // 状态
       type: String,
-      value: '',
-      observer: 'updateStatus',
+      value: ''
     },
     step: { // 状态
       type: String,
@@ -17,31 +16,20 @@ Component({
   },
 
   relations: {
-    'step/index': {
-      type: 'child',
-      linked() {
-        this.updateCurrent()
-      },
-      linkChanged() {
-        this.updateCurrent()
-      },
-      unlinked() {
-        this.updateCurrent()
-      },
+    'steps/index': {
+      type: 'parent',
     },
   },
 
-  
+
   data: {
     step1: 1,
     step2: 2,
     step3: 3,
     step4: 4,
     step5: 5,
-
     totalsteps: 4,
     status: 2,
-   
   },
 
   /**
@@ -49,7 +37,7 @@ Component({
    */
 
 
-  ready(){
+  ready() {
     if (this.data.totalsteps == 2) {
       this.setData({
         linewidth: 120,
@@ -70,18 +58,21 @@ Component({
       })
     }
   },
-
-  methods: {
   
-    updateStatus() {
-      console.log('11111', this.getRelationNodes('step/index'))
-      const elements = this.getRelationNodes('step/index')
-      const { totalsteps, status } = this.data
-      if (elements.length > 0) {
-        
-      }
+   methods: {
+    updateCurrent(opts = {}) {
+      const totalsteps = this.data.totalsteps
+      const status = this.data.status
+      const options = Object.assign({
+        totalsteps,
+        status
+      }, opts)
     }
-  }
+   },
+
+   attached() {
+    this.updateCurrent(this.data)
+  },
 
 })
 

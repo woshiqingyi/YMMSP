@@ -1,0 +1,20 @@
+@import "/utils/smalltitle.wxss";
+.layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-layout{
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  height: 25rpx;
+  background-color: whitesmoke;
+  border-radius: 20rpx;
+}
+
+.per-progress{
+  background-color: rgb(52, 107, 224);
+  height: 25rpx;
+  border-radius: 20rpx;
+}
