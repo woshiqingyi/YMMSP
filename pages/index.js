@@ -159,6 +159,11 @@ Page({
             remark: '进度条',
             url: '/pages/progress/index'
           }, 
+          {
+            title: 'Search',
+            remark: '商品搜索',
+            url: '/pages/search/index'
+          }, 
         ]
       }
     ]

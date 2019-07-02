@@ -21,7 +21,6 @@ Component({
     },
   },
 
-
   data: {
     step1: 1,
     step2: 2,

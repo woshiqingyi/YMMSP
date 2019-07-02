@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index",
+    "pages/search/index",
     "pages/progress/index",
     "pages/steps/index",
     "pages/shopping-cart/index",
