@@ -4,13 +4,19 @@ Page({
     totalsteps: 4,
     status: 1,
     data1:[],
-    data2:{
-     
-    },
+    data2:{},
     data3:''
   },
 
   onLoad() {
+
+    console.log('55555',this.data.data2)
+    if (w){
+      
+      console.log('zhen')
+    }else{
+      console.log('jia')
+    }
     var a = 1;
     var b = 1
     console.log(a++)  
@@ -34,10 +40,4 @@ Page({
       status:++this.data.status
     })
   }
-
- 
-
-
-
- 
 })

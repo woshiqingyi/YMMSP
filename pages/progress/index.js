@@ -2,7 +2,7 @@ Page({
   data: {
     TotalWidth:600,
     Width:100,
-    Percentage1:1
+    Percentage1:50
   },
 
   onLoad: function (options) {

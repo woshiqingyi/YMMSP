@@ -1,6 +1,6 @@
 <view class='small-title'>下拉框单选</view>
 
-  <picker bindchange='chooseOption' mode="selector" range="{{Management}}" range-key="{{'ManagementName'}}" >
+  <picker bindchange='chooseOption' mode="selector" range="{{Management}}" range-key="{{'Code'}}" >
     <view class="per-option">
       <text class='option-title'>经营类别</text>
       <view class="option-text">

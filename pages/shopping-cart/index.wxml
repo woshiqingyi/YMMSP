@@ -1,9 +1,13 @@
 <view class='layout'>
+
   <view class='left' bindtap='reduceNumber'>
     <image class='icon-image' src='/image/reduce.png'></image>
   </view>
+
   <view class='two'>{{number}}</view>
+
   <view class='right' bindtap='addNumber'>
     <image class='icon-image' src='/image/add.png'></image>
   </view>
+
 </view>

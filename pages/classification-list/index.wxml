@@ -12,9 +12,7 @@
 <-->
 
 <view class='yangshi'>
-
     <scroll-view scroll-y='true' style="height:{{windowHeight}}px;width:120rpx" scroll-top='1000' scroll-left='1000'>
-   
         <view class='small-yangshi'>
           <block wx:for='{{messageTypeItems}}'>
             <view

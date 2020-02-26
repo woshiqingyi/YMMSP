@@ -1,0 +1,22 @@
+<view class='search-layout'>
+  <view class='search-style' style='width:{{SearchLength}}rpx'>
+    <view class='icon-latout'>
+      <image class='icon-image' src='/image/return.png' wx:if='{{HotSearch}}'></image>
+      <image class='icon-image' src='/image/search.png' wx:if='{{!HotSearch}}' ></image>
+    </view>
+    <input class='input-style' placeholder='请输入要搜索的内容' bindfocus='showHotSearch' bindblur='disappearHotSearch'></input>
+  </view>
+  <view class='search-button' wx:if='{{HotSearch}}'>搜索</view>
+</view>
+
+<view class='hot-search' wx:if='{{HotSearch}}'>
+  <view class='search-title'>历史搜索</view>
+  <view class='search-label'>
+    <view class='per'>小米9</view>
+    <view class='per'>小米手环</view>
+    <view class='per'>飞行器</view>
+    <view class='per'>超声波电动牙刷</view>
+    <view class='per'>游泳眼镜</view>
+    <view class='per'>苹果手机</view>
+  </view>
+</view>

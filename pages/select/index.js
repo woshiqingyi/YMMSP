@@ -3,16 +3,20 @@ Page({
   data: {
     Management:[
       {
-        ManagementName:'网络'
+        ManagementName:'网络',
+        Code:'1'
       },
       {
-        ManagementName: '科技'
+        ManagementName: '科技',
+        Code: '1'
       },
       {
-        ManagementName: '外贸'
+        ManagementName: '外贸',
+        Code: '1'
       },
       {
-        ManagementName: 'p2p'
+        ManagementName: 'p2p',
+         Code:'1'
       }
     ],
   },
